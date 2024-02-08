@@ -1,0 +1,49 @@
+nohup: ignoring input
+Server is running on port 42953
+
+> KzBOT@1.2.15 start
+> node index
+
+Chương trình đang chạy...
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at Function.listen (/home/runner/Kz/SCR-K/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/runner/Kz/SCR-K/index.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Quá trình con đã kết thúc với mã thoát 1
+Đang khởi tạo các biến... » Kz BOT
+[ 𝐊𝐳_𝐁𝐨𝐭 ] » Found file config: config.json
+[ 𝐊𝐳_𝐁𝐨𝐭 ] » Config Loaded!
+[ 𝐊𝐳_𝐁𝐨𝐭 ] »  Đã tìm thấy file appstate
+[ 𝐔𝐏𝐓𝐈𝐌𝐄 ] » 𝐒𝐄𝐑𝐕𝐄𝐑 𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐈𝐍𝐊: https://Kz.minhduong2m.repl.co
+[ 𝐔𝐏𝐓𝐈𝐌𝐄 ] » Bạn Đang Sử Dụng Replit Thường - Hệ Thống Uptime Sẽ Auto Treo Cho Bạn ✨
+[ DATABASE ] » Dữ liệu Kz BOT đã được kết nối thành công!!
+============== WELCOME TO Kz_BOT ==============
+(node:2484) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
+    at Object.decrypt (/home/runner/Kz/SCR-K/node_modules/chatbot-api-remake/index.js:98:33)
+    at loginHelper (/home/runner/Kz/SCR-K/node_modules/chatbot-api-remake/index.js:455:31)
+    at login (/home/runner/Kz/SCR-K/node_modules/chatbot-api-remake/index.js:572:5)
+    at onBot (/home/runner/Kz/SCR-K/kzbot.js:256:5)
+    at /home/runner/Kz/SCR-K/kzbot.js:452:9
+[ UPTIME ] » Kết Nối Server Thành Công - Tiến Hành Auto Restart Nếu Bot Off 💤
+[ 𝐊𝐳 𝐁𝐨𝐭 ]:  Tài khoản mang UID : 100084449929632
+[ 𝐊𝐳 𝐁𝐨𝐭 ]:  Đang tiến hành đăng nhập
